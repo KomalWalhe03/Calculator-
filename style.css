@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing:initial;
+    
+   
+  }
+  body{
+    font-family:'sans-serif';
+    text-align: center;
+    flex-direction: row;
+    min-height: 100vh;
+    background-image:url("https://www.asianpaints.com/content/dam/asian_paints/wall-coverings/wallpaper-close-shots/wallpaper-close-shot-asian-paints-EB2101.jpg") ;
+  }
+  h1 {
+    text-align: center;
+    margin: 20px;
+    color: rgb(50, 141, 141); 
+    font-size: 40px; 
+    margin-bottom: 20px;
+    background-color:#f8a5cf;
+    }  
+  .center{
+    width: 350px;
+    background: #80527c;
+    border-radius: 30px;
+    margin: auto;
+  }
+  input[type="text"]{
+    height: 60px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: rgb(218, 180, 13);
+    font-size: 22px;
+    font-weight:lighter;
+    text-align: right;
+    padding-right: 20px;
+    background: linear-gradient(#d3e0d1,#dfe6e9);
+  }
+  form .buttons{
+    width: 300px;
+    margin: 10px 25px 0 25px;
+    padding: 10px 0;
+  }
+  input[type="button"]{
+    width: 58px;
+    height: 55px;
+    margin: 5px;
+    font-size: 22px;
+    line-height: 55px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: linear-gradient(#d9d9d9, #bfbfbf);
+  }
+  input[type="button"]:hover{
+    transition: .5s;
+    background: linear-gradient(#bfbfbf, #A9A9A9);
+  }
+  input#clear{
+    background: #5c79fa;
+    border: 1px solid black;
+    color: white;
+  }
+  input#clear:hover{
+    transition: .5s;
+    background: linear-gradient(#d3376b, 	#A0522D);
+  }
+  input#equal{
+    width: 275px;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+    color: white;
+    background: #e06743;
+    border: 1px solid #b32a00;
+  }
+  input#equal:hover{
+    transition: .5s;
+    background: linear-gradient(#e3f0e3,#26921c);
+  }
